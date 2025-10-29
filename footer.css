@@ -1,0 +1,23 @@
+.footer-menu {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-menu a {
+  color: var(--color-text1);
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #5b3a5b;
+}

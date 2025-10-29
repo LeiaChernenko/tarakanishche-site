@@ -1,0 +1,47 @@
+.main-section {
+  margin-top: 20px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu .btn {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+}
+
+.menu .btn:hover {
+  background-color: var(--background-color);
+}
+
+.menu img {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.main-text {
+  color: var(--color-text2);
+}
+
+.search-form input {
+  background-color: var(--color-form);
+  color: var(--color-text2);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.search-form select,
+.search-form button {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.search-form input::placeholder {
+  color: var(--color-text2);
+  opacity: 70%;
+}

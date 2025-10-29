@@ -1,0 +1,65 @@
+.hero-header {
+  background: url("img/hero.jpg") center/cover no-repeat;
+  height: 500px;
+  position: relative;
+}
+
+.hero-logo {
+  width: 120px;
+  z-index: 2;
+}
+
+.hero-nav {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  z-index: 3;
+}
+
+.hero-nav a {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.hero-nav a:hover {
+  background-color: var(--background-color);
+  color: var(--color-text2);
+}
+
+.email-form {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  display: flex;
+  z-index: 3;
+}
+
+.email-form span {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+  padding: 6px 10px;
+  border-radius: 6px 0 0 6px;
+}
+
+.email-form input {
+  background-color: var(--color-form);
+  color: var(--color-text2);
+  border-radius: 0 6px 6px 0;
+  padding: 6px 10px;
+  width: 200px;
+}
+
+.email-form input::placeholder {
+  color: var(--color-text2);
+  opacity: 70%;
+}
+
+.email-form button {
+  background-color: var(--color-menu);
+  color: var(--color-text1);
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-left: 8px;
+}
